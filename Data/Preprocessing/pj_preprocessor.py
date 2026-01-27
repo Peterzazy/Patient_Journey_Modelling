@@ -294,5 +294,4 @@ class DataProcessor:
         # Create the final dataframe: one row per HADM_ID
         print(f"saving events file to {self.config['file_path']}")
         self.final_hadm_df = pd.DataFrame(final_hadm_rows)
-        # self.final_hadm_df.to_csv(r"C:\Users\ETRO\PycharmProjects\ICD_Coding\Multi_modal_continious\Data\Saved\Events_HADM_50.csv", index=False)
         self.final_hadm_df.to_json(self.config["file_path"], orient="records", lines=True)
