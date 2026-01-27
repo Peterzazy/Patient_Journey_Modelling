@@ -1,0 +1,10 @@
+{"run_name": "MMULA_evaluate",
+  "file_path":"/home/carnelutti/Codes/ICD_Coding/Multi_modal_continiuous/Data/Saved/Events_HADM_50.json",
+  "splits":"/home/carnelutti/caml_splits.csv",
+  "mimic_dir": "/home/carnelutti",
+  "saved_path":"/Users/p-a/PycharmProjects/ICD_Coding/Multi_Modal_Continuous/Data/Saved/",
+  "batch_size": 1,
+  "event_tokens_file": "/Users/p-a/PycharmProjects/ICD_Coding/Multi_Modal_Continuous/Data/Saved/token_dicts.json",
+  "project_path": "/Users/p-a/PycharmProjects/ICD_Coding/Multi_Modal_Continuous/",
+  "base_checkpoint": "/Users/p-a/PycharmProjects/ICD_Coding/Multi_Modal_Continuous/RoBERTa-base-PM-M3-Voc-distill-align-hf",
+  "num_attention_heads": 1, "num_layers": 1, "lr": 5e-05, "max_chunks": 16, "grad_accumulation": 16, "use_positional_embeddings": true, "use_reverse_positional_embeddings": true, "priority_mode": "Last", "priority_idxs": [1], "use_document_embeddings": false, "use_reverse_document_embeddings": false, "use_category_embeddings": true, "num_labels": 50, "use_all_tokens": false, "num_heads_labattn": 1, "final_aggregation": "cls", "only_discharge_summary": false, "patience_threshold": 3, "max_epochs": 20, "save_model": true, "load_from_checkpoint": false, "checkpoint_name": "Run_all_notes_last_second_transf", "evaluate_temporal": true, "use_multihead_attention": true, "debug": false, "weight_aux": 0.0, "setup": "random", "limit_ds": 0, "is_baseline": false, "aux_task": "none", "apply_transformation": false, "apply_weight": false, "reduce_computation": true, "apply_temporal_loss": false, "random_sample": true}
