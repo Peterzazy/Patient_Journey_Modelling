@@ -1,0 +1,26 @@
+{
+  "file_path":"/Users/p-a/PycharmProjects/ICD_Coding/FINAL/Data/Datasets/MIMIC3/PJ/Events_HADM_50.json",
+  "note_path": "/Users/p-a/Desktop/OMOP/Datasets/MIMIC3/mimic-iii-clinical-database-1.4",
+  "project_path": "/Users/p-a/PycharmProjects/ICD_Coding/FINAL/Models/PJ",
+  "run_name": "Multi_modal",
+  "mode": "multi_modal",
+  "splits":"/Users/p-a/PycharmProjects/ICD_Coding/FINAL/Data/Datasets/MIMIC3/Mullenbach_splits/caml_splits.csv",
+  "mimic_dir": "/Users/p-a/Desktop/OMOP/Datasets/MIMIC3/mimic-iii-clinical-database-1.4",
+  "base_checkpoint": "/Users/p-a/PycharmProjects/ICD_Coding/FINAL/Data/Preprocessing/PLM/RoBERTa-base-PM-M3-Voc-distill-align/RoBERTa-base-PM-M3-Voc-distill-align-hf",
+  "saved_path":"/Users/p-a/PycharmProjects/ICD_Coding/FINAL/Data/Datasets/MIMIC3/PJ/Saved/",
+  "event_file": "/Users/p-a/PycharmProjects/ICD_Coding/FINAL/Data/Datasets/MIMIC3/PJ/Events_HADM_50.json",
+  "event_tokens_file": "/Users/p-a/PycharmProjects/ICD_Coding/FINAL/Data/Datasets/MIMIC3/PJ/token_dicts.json",
+  "batch_size": 1,
+  "lr": 5e-5,
+  "epochs": 20,
+  "hidden_dim": 768,
+  "lab_param": {
+    "num_items": 658,
+    "num_flags": 3,
+    "do_value": true
+                },
+  "microbio_params": {
+    "num_specimens": 85,
+    "num_organisms": 212,
+    "num_antibiotics": 31,
+    "num_interpretations": 4}}
