@@ -1,8 +1,8 @@
 import os
 import json
 from Data.Preprocessing.pj_preprocessor import DataProcessor
-from FINAL.pj_utils import load_token_dicts_from_json, get_tokenizer
-from FINAL.Data.Multi_Modal_Dataset import Multi_Modal_Dataset, tolerant_collate
+from pj_utils import load_token_dicts_from_json, get_tokenizer
+from Data.Multi_Modal_Dataset import Multi_Modal_Dataset, tolerant_collate
 from torch.utils.data import DataLoader
 import torch
 from torch import nn, optim
@@ -97,7 +97,7 @@ def load_model():
 
     print("loading model which is trained on notes only.. LAHST")
     checkpoint = torch.load(
-        "/home/carnelutti/Codes/ICD_Coding/Git_Codes/icd_continuous_prediction/Saved_models/baseline/BEST_MMULA_evaluate.pth",
+        "/Saved_models/LAHST/BEST_MMULA_evaluate.pth",
         map_location="cuda")
     saved_state_dict = checkpoint["model_state_dict"]
 
