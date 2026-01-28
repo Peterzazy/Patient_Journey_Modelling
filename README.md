@@ -55,3 +55,8 @@ The parameter fusion specifies the fusion mechanism used in the model architectu
 # Notice 
 TThis codebase is built on top of the following repository: https://github.com/mireiahernandez/icd-continuous-prediction 
 In particular, it reuses and extends components related to the LAHST architecture.
+
+# Model parameters: 
+
+The trained model checkpoints (`.pth`) for **NOMA-G**, **NOMA-M**, and **LAHST** will be released shortly.  
+In the meantime, all reported experimental results are already available and reproducible using the provided configuration files.
