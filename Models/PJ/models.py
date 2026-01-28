@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from FINAL.Models.PJ.event_transformer_icd import *
+from Models.PJ.event_transformer_icd import *
 import torch.nn.functional as F
 
 class GatedFusion(nn.Module):
